@@ -1,0 +1,24 @@
+.caja-color {
+  display: inline-block;
+  margin: 10px;
+  width: 100px;
+  height: 100px;
+  border: 2px solid black;
+}
+
+
+#tarjetas{
+  background-color: lightgray;
+  border: 1px solid;
+  padding: 10px;
+}
+
+.tarjeta{
+  display: inline-block;
+  margin: 10px;
+  width: 200px;
+  height: 200px;
+  border: 1px solid black;
+  text-align: center;
+  line-height: 200px;
+}

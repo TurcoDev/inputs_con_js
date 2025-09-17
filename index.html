@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta
+			name="viewport"
+			content="width=device-width, initial-scale=1.0" />
+		<script src="js/script.js"></script>
+		<title>Formularios con JS</title>
+		<link
+			rel="stylesheet"
+			href="css/style.css" />
+	</head>
+	<body>
+		<h1>Formularios con JS</h1>
+		<label for="color">Ingrese un color</label>
+		<input
+			type="text"
+			id="color"
+			placeholder="Color" />
+
+		<button onclick="cargarColor()">Cargar color</button>
+
+		<button onclick="mostrarColores()">Mostrar Colores</button>
+
+		<div id="contenedor"></div>
+
+		<hr />
+		<h2>Formulario tarjeta</h2>
+		<div class="input-group">
+			<label for="titulo">Ingrese un título</label>
+			<input type="text" id="titulo" placeholder="Título" />
+		</div>
+		<div class="input-group">
+			<label for="color2">Ingrese un color</label>
+			<input type="text" id="color2" placeholder="Color" />
+		</div>
+		<div class="input-group">
+			<label for="parrafo">Ingrese un párrafo</label>
+			<input type="text" id="parrafo" placeholder="Párrafo" />
+		</div>
+
+    <button onclick="agregarTarjeta()">Agregar tarjeta</button>
+
+    <div id="tarjetas"></div>
+	</body>
+</html>
