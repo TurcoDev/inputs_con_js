@@ -32,7 +32,7 @@ function agregarTarjeta(){
   tarjetas.innerHTML += `
     <div class="tarjeta">
       <h3>${inputTitulo.value}</h3>
-      <div class="color-tarjeta" style="background-color: ${inputColor.value}">${inputColor.value}</div>
+      <div style="background-color: ${inputColor.value}">${inputColor.value}</div>
       <p>${inputParrafo.value}</p>
     </div>
   `;
